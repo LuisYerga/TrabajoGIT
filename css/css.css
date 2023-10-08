@@ -1,0 +1,11 @@
+.rendimiento{
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    height: auto;
+  }
+.segur{
+    background-color: rgb(49, 48, 48);
+    color: white;
+}
