@@ -1,51 +1,98 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <title>footer</title>
-  </head>
-  <body>
-    <!-- Aquí va el contenido de tu web -->
-    <!-- JavaScript -->
-    <script
-  src="https://code.jquery.com/jquery-3.7.0.min.js"
-  integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
-  crossorigin="anonymous"></script>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-   <body>
-    <main>
-      <div class="bg-light text-dark">
-          <div class="container col-xxl-8 px-4 py-5">
-              <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-                  <div class="">
-                      <h2 class="display-5 lh-1 mb-2">Comandos Vitales</h2>
-                      <h4>"Git Config:"</h4>
-                      <img src="img/config.PNG" alt="Introducción usuario"/>
-                      <img src="img/email.PNG" alt="Introducción correo"/>
-                      <p>Utilizamos estos comandos para configurar nuestra sesión de Git desde la consola. Enlazamos así nuestra cuenta introduciendo nuestro nombre de cuenta y el correo</p>
-                      <h4>"Git Clone:"</h4>
-                      <img src="img/clone.PNG" alt="Clonar repositorio"/>
-                      <p>Clonar un repositorio nos sirve para trabajar de manera local con la información ya subida. Una vez realizados los cambios podemos subir estos a nuestro repositorio de Git </p>
-                      <h4>"Git Branch:"</h4>
-                      <img src="img/rama.PNG" alt="Crear rama"/>
-                      <p>Creamos ramas con el contenido de la rama main para que este pueda ser manipulado por los colaboradores sin que cause conflicto</p>
-                      <h4>"Git checkout:"</h4>
-                      <img src="img/cambio.PNG" alt="Cambiar de rama"/>
-                      <p>Es el comando que empleamos para poder movernos entre las distintas ramas del repositoro</p>
-                      <h4>"Git commit:"</h4>
-                      <img src="img/commit.PNG" alt="Creamos commit"/>
-                      <p>Hacemos un commit añadiendo un comentario para guardar los distintos cambios que se han hecho. Se controla de esta forma las diferentes versiones por las que ha pasado el proyecto </p>
-                      <h4>"Git push:"</h4>
-                      <img src="img/push.PNG" alt="Subimos los cambios"/>
-                      <p>Subimos los diferentes commits sobre los que se ha trabajado al repositorio de GitHub.</p>
-                      <h4>"Git pull:"</h4>
-                      <img src="img/pull.PNG" alt="Bajar cambios"/>
-                      <p>Este comando nos sirve para bajar la ultima version de GitHub a nuestro respositorio local, actualizandose así nuestros documentos </p>
-                  </div>
-              </div>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Git </title>
+  <link rel="stylesheet" href="CSS/bootstrap.css">
+  <script src="JS/bootstrap.bundle.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="CSS/style.css">
+
+  <link rel="icon" href="img/logo.png">
+
+  <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+<header>
+  <nav class="navbar navbar-expand-lg bg-light justify-content-center text-align-content-center">
+    <div class="container justify-content-center">
+        <img src="img/logo.png" width="50px" 
+      <a class="navbar-brand" href="index.html"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          </li>
+           <li class="nav-item dropdown">
+          <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            ¿Qué es Git?
+          </a>
+        
+          <li class="nav-item">
+            <a class="nav-link " href="">Rendimiento</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="" >Seguridad</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="" >Comandos</a>
+          </li>
+          <a class="nav-link " href="" >Curiosidades</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  </header>
+  <div class="introduccion bg-dark text-white">
+    <div class="b-example-divider"></div>
+
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <div class="video">
+            
+          </div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/jGehuhFhtnE?si=rdQWvoK7JbrvXVxp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            
+        </div>
+        <div class="col-lg-6">
+          <h2 class="display-5 lh-1 mb-3"> ¿Que es git?</h2>
+          <p>Git es un sistema de control de versiones distribuido, lo que significa que un clon local del proyecto es un repositorio de control de versiones completo.</p>
+           <p>  Este paradigma es distinto del control de versiones centralizado, donde los clientes deben sincronizar el código con un servidor antes de crear nuevas versiones
+        </p>
+        <p> La flexibilidad y popularidad de Git hacen que sea una excelente opción para cualquier equipo. Muchos desarrolladores y graduados universitarios ya saben cómo usar Git.</p>
+        <p> La comunidad de usuarios de Git ha creado recursos para entrenar a desarrolladores y la popularidad de Git facilita la ayuda cuando sea necesario. </p>
+        <p> Casi todos los entornos de desarrollo tienen compatibilidad con Git y las herramientas de línea de comandos de Git implementadas en cada sistema operativo principal.
+        </p>
+        Casi todos los entornos de desarrollo tienen compatibilidad con Git y las herramientas de línea de comandos de Git implementadas en cada sistema operativo principal.
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="introduccion bg-dark text-white">
+    <div class="b-example-divider"></div>
+
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <div class="video">
+            
           </div>
       </div>
       <div class="bg-dark text-light">
