@@ -35,21 +35,16 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
             </li>
-             <li class="nav-item dropdown">
-            <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              ¿Qué es Git?
-            </a>
-          
             <li class="nav-item">
-              <a class="nav-link " href="">Rendimiento</a>
+              <a class="nav-link " href="#rendimiento">Rendimiento</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="" >Seguridad</a>
+              <a class="nav-link " href="#Git">¿Qué es Git?</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="" >Comandos</a>
+              <a class="nav-link " href="#comandos" >Comandos</a>
             </li>
-            <a class="nav-link " href="" >Curiosidades</a>
+            <a class="nav-link " href="#curiosidades" >Curiosidades</a>
             </li>
           </ul>
         </div>
@@ -62,7 +57,7 @@
     <div class="bg-white text-dark">
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-      <h1 class="rendimiento ">Rendimiento</h1> 
+      <h1 class="rendimiento" id="rendimiento">Rendimiento</h1> 
       <p>Las características básicas de rendimiento de Git son muy sólidas en comparación con muchas otras alternativas. La confirmación de nuevos cambios, la ramificación, la fusión y la comparación de versiones anteriores se han optimizado en favor del rendimiento.</p>
        
         <p>Los algoritmos implementados en Git aprovechan el profundo conocimiento sobre los atributos comunes de los auténticos árboles de archivos de código fuente, cómo suelen modificarse con el paso del tiempo y cuáles son los patrones de acceso.
@@ -86,7 +81,7 @@
             <iframe width="560" height="315" src="https://www.youtube.com/embed/jGehuhFhtnE?si=rdQWvoK7JbrvXVxp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
           <div class="col-lg-6">
-            <h2 class="display-5 lh-1 mb-3"> ¿Que es git?</h2>
+            <h2 class="display-5 lh-1 mb-3" id="Git"> ¿Que es git?</h2>
             <p>Git es un sistema de control de versiones distribuido, lo que significa que un clon local del proyecto es un repositorio de control de versiones completo.</p>
              <p>  Este paradigma es distinto del control de versiones centralizado, donde los clientes deben sincronizar el código con un servidor antes de crear nuevas versiones
           </p>
@@ -104,7 +99,7 @@
         <div class="b-example-divider"></div>
         <div class="container col-xxl-8 px-4 py-5">
           <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-              <div class="">
+              <div id="comandos">
                   <h2 class="display-5 lh-1 mb-2">Comandos Vitales</h2>
                   <h4>"Git Config:"</h4>
                   <img src="img/config.PNG" alt="Introducción usuario"/>
@@ -136,7 +131,7 @@
           <div class="bg-dark text-light">
             <div class="container col-xxl-8 px-4 py-5">
                 <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-                    <div class="">
+                    <div id="curiosidades">
                         <h2 class="display-5 lh-1 mb-3">Curiosidades</h2>
                         <p>Git fue lanzado el 7 de abril de 2005 siendo desarrollado por Linus Torvalds, creador de Linux. Es actualmente propiedad de Microsoft desde 2018 en una compra que llego a los 7500 millones de dolares</p>
                         <p>La creación de Git se da debido a la necesidad de los programadores de Linux de tener una herramienta optima para el control de versiones. En un comienzo estos usaban BitKeeper,
@@ -163,11 +158,10 @@
 
 
           <ul class="nav col-md-4 justify-content-end">
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">¿Que es Git?</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Rendimiento</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Seguridad</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Comandos</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Curiosidades</a></li>
+            <li class="nav-item"><a href="#rendimiento" class="nav-link px-2 text-muted">Rendimiento</a></li>
+            <li class="nav-item"><a href="#Git" class="nav-link px-2 text-muted">¿Que es Git?</a></li>
+            <li class="nav-item"><a href="#comandos" class="nav-link px-2 text-muted">Comandos</a></li>
+            <li class="nav-item"><a href="#curiosidades" class="nav-link px-2 text-muted">Curiosidades</a></li>
           </ul>
         </footer>
       </body>
